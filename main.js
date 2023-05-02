@@ -63,6 +63,8 @@ $(document).ready(function () {
         $(this).addClass("on");
         enableClick = true;
       });
+    $(".navi>li").children("a").removeClass("on");
+    $(".navi>li").eq(index).children("a").addClass("on");
   }
   // $(".panel>li")
   //   .filter(".on")
@@ -122,6 +124,8 @@ $(document).ready(function () {
         $(this).addClass("on");
         enableClick = true;
       });
+    $(".navi>li").children("a").removeClass("on");
+    $(".navi>li").eq(index).children("a").addClass("on");
   }
   // $(".panel>li")
   //   .filter(".on")
